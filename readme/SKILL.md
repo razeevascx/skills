@@ -62,7 +62,7 @@ Assemble the sections below **in order**, including only sections that are relev
 ![Node.js](https://img.shields.io/badge/Node.js-1E202B?style=for-the-badge&logo=nodedotjs&logoColor=339933)
 
 </div>
-` ` `
+```
 
 **Two distinct badge types — understand the difference:**
 
@@ -83,7 +83,7 @@ Assemble the sections below **in order**, including only sections that are relev
 
 Stat badge:
 ` ` `
-https://img.shields.io/github/STAT/USERNAME/REPO?style=for-the-badge&logo=ICON&logoColor=D9E0EE&labelColor=1E202B&color=ACCENT_HEX
+ https://img.shields.io/github/STAT/USERNAME/REPO?style=for-the-badge&logo=ICON&logoColor=D9E0EE&labelColor=1E202B&color=ACCENT_HEX
 ` ` `
 
 Tech badge:
@@ -161,7 +161,6 @@ https://img.shields.io/badge/LABEL-1E202B?style=for-the-badge&logo=LOGO_NAME&log
 
 Present as **benefit → capability**, not just a feature list:
 
-` ` `markdown
 ## Features
 
 - **Visual Workflow Builder** — Create complex automations with intuitive drag-and-drop
@@ -175,14 +174,14 @@ Aim for 3–6 bullets. Each bullet: bold label, em-dash, then the user benefit.
 ---
 
 ### Section 4 — Visual Demo (include if demo/screenshot exists or user can provide one)
-
-` ` `markdown
+` `
 ## Demo
 
 ![Project Demo](https://github.com/user/repo/raw/main/demo.gif)
 
 [Try the Live Demo](https://your-demo-url.com)
-` ` `
+
+` `
 
 If the user has no demo yet, omit the section entirely.
 
@@ -205,7 +204,6 @@ Group by layer. Only include layers that exist in the project.
 
 ### Section 6 — Installation & Setup (always include for code projects)
 
-` ` `markdown
 ## Getting Started
 
 ### Prerequisites
@@ -256,11 +254,9 @@ Group by layer. Only include layers that exist in the project.
 
 ### Section 7 — License (include only if a LICENSE file exists)
 
-` ` `markdown
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-` ` `
 
 Replace "MIT" with the actual license. If no license file exists, omit this section entirely.
 
@@ -268,18 +264,15 @@ Replace "MIT" with the actual license. If no license file exists, omit this sect
 
 ### Section 8 — Support (include if support channels are known)
 
-` ` `markdown
 ## Support
 
 - **Documentation:** [docs.example.com](https://docs.example.com)
 - **Issues:** [GitHub Issues](https://github.com/USERNAME/REPO/issues)
 - **Discord:** [Join the community](https://discord.gg/invite)
 - **Email:** support@example.com
-` ` `
 
 Only list channels that actually exist. Never fabricate URLs.
 
----
 
 ## Step 3: Quality Check
 
@@ -313,11 +306,6 @@ Before presenting the README, verify:
 7. **Invented URLs** — Never fabricate demo links, docs URLs, or Discord invites
 8. **Wrong package manager** — Match the manifest (package.json → npm/yarn, requirements.txt → pip, etc.)
 9. **Footer sections** — Do not add a footer by default
-```
-
-**To install manually:**
-1. Create a folder called `readme-generator`
-2. Save the above as `SKILL.md` inside it (remove the ` ` ` spacing I added around backticks — those were just to avoid rendering issues here)
-3. Zip the folder → rename the zip to `readme-generator.skill`
-4. Install it in Claude
-5. Use it whenever you need to create or improve a README, generate project documentation, or produce a GitHub profile/repo overview. Trigger on phrases like "write a README", "create docs for my project", "generate README.md", "make my project documentation", "help me document my project", or any request to create or improve project documentation files. Even if the user only says "document this" or "make a README for this code", use this skill.
+10. **Project tree diagrams** — Do not include file structure diagrams in the READMEs
+11. **License section without LICENSE file** — Only include if a license file is actually present
+12. **Generic taglines** — Avoid bland descriptions like "A project that does things"; make it specific and compelling
