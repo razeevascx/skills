@@ -2,13 +2,13 @@
 name: readme
 description: Generate professional, visually polished GitHub README files for any project. Use this skill whenever the user wants to create, write, or improve a README, generate project documentation, or produce a GitHub profile/repo overview. Trigger on phrases like "write a README", "create docs for my project", "generate README.md", "make my project documentation", "help me document my project", or any request to create or improve project documentation files. Even if the user only says "document this" or "make a README for this code", use this skill.---
 
+---
 
 # Essential README Structure
 
 
 Produce complete, professional `README.md` files for any project — from quick personal scripts to production open-source libraries. The output should be visually polished (centered header, badges, tech stack icons) and precisely scoped to what the project actually contains.
 
----
 
 
 ## Step 1: Gather Project Information
