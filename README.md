@@ -4,8 +4,8 @@
 
 *A curated collection of agent skills for LLM-powered assistants*
 
-![Last Commit](https://img.shields.io/github/last-commit/razeev/skills?style=for-the-badge&logo=git&logoColor=D9E0EE&labelColor=1E202B&color=8ad7eb)
-
+![Last Commit](https://img.shields.io/github/last-commit/razeevascx/skills?style=for-the-badge&logo=git&logoColor=D9E0EE&labelColor=1E202B&color=8ad7eb)
+![Languages](https://img.shields.io/github/languages/count/razeevascx/skills?style=for-the-badge&logo=languages&logoColor=D9E0EE&labelColor=1E202B&color=8ad7eb)
 
 **Built with:**
 
